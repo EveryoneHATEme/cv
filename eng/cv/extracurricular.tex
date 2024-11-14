@@ -17,10 +17,14 @@
 {October 2023} % Date(s)
 {
   \begin{cvitems} % Description(s) of experience/contributions/knowledge
-    \item {Finding a solution to the problem of detecting and tracking solid waste items on a conveyor belt.}
-    \item {To solve problem of detection we used YOLOv8 model with modifications to be able to work with multispectral data. } 
-    \item {Managed the team within machine learning and data processing related tasks. }
-    \item {To solve problem of tracking we used modified DeepSort algorithm. }
+    \item {The main objective was to find a solution to the problems of detecting and tracking solid waste items in the multispectral images.}
+    \item {The YOLOv8 model was used to solve the detection problem. } 
+    \item {My task was to manage the team within the machine learning and data preprocessing tasks. }
+    \item {I researched current models and methods for solving detection and tracking problems. }
+    \item {I analyzed the data as it was fed in a non-standard format due to channels other than RGB. }
+    \item {I dealt with augmentations of the input data. }
+    \item {I modified the YOLOv8 model from the Ultralitycs library to allow it to accept eleven-channeled images. }
+    \item {After expert evaluation our solution was ranked second. }
   \end{cvitems}
 }
 %---------------------------------------------------------
@@ -31,9 +35,12 @@
 {October 2023} % Date(s)
 {
   \begin{cvitems} % Description(s) of experience/contributions/knowledge
-    \item {Displaying VTB Bank office data for customers to make it easier to find the most suitable office in terms of location and time. }
-    \item {Our team has chosen Flutter for mobile app and FastAPI for backend service. } 
-    \item {Integrated LWCC library with RabbitMQ for crowd counting inside bank offices to track occupancy. }
+    \item {The task was to display VTB Bank branches in a user-friendly interface to make it easier to find the most suitable branch. }
+    \item {Our team used Flutter to write the mobile app and FastAPI to write the backend part. } 
+    \item {To find the best branch, our team decided to use two metrics: branch occupancy and the time it takes for a customer to get to the branch by the chosen mode of transportation. }
+    \item {To measure branch occupancy, we suggested using surveillance camera images every twenty minutes, to count the number of people and keep statistics in case of system failure.}
+    \item {In the course of my work, I integrated a microservice that tracks the occupancy of bank branches. For integration I used RabbitMQ. }
+    \item {Our team made it to the finals (top 10), but did not win any places. }
   \end{cvitems}
 }
 %---------------------------------------------------------
@@ -44,10 +51,10 @@
 {November 2023} % Date(s)
 {
   \begin{cvitems} % Description(s) of experience/contributions/knowledge
-    \item {Solve problem of detecting infrastructure facilities on satellite data. }
-    \item {Managed the team within machine learning and data processing related tasks. }
-    \item {Studied the literature related to the subject matter, developed test models beyond simple fine-tuning of models}
-    \item {Problem was solved using Unet model. } 
+    \item {The task of the hackathon was to identify infrastructure objects in satellite images. }
+    \item {I managed a team within the machine learning and data preprocessing tasks. }
+    \item {During the hackathon, I studied the literature to test out-of-the-box models for our task, unfortunately for the methods proposed in the research, we lacked time and computational resources, so it was decided to fine-tune a pre-trained model. }
+    \item {Our solution was a trained Unet model. } 
   \end{cvitems}
 }
 %---------------------------------------------------------
@@ -58,11 +65,13 @@
 {September 2024} % Date(s)
 {
   \begin{cvitems} % Description(s) of experience/contributions/knowledge
-    \item {Record Linkage problem}
-    \item {The task was to merge records about person data from three databases with different fields with corrupted data. }
-    \item {The main problem that we had to analyse 11 million records in 20 minutes. }
-    \item {Studied the literature related to the subject matter. }
-    \item {As a solution we used Levenshtein distance and Expectation/Conditional maximization classifier. } 
+    \item {We were given the task of merging records. }
+    \item {The data were three databases with information about people, it was necessary to merge the records related to the same person. }
+    \item {The data were corrupted: some records had missing fields, others had typos, and sometimes words could be duplicated. }
+    \item {An important problem was that 11 million records had to be analyzed in 20 minutes. }
+    \item {I researched the literature related to our topic and the methods used to solve the Record Linkage problem. } 
+    \item {The solution to the problem was to use the Expectation-Maximization algorithm with Levenshtein distance. }
+    \item {After evaluating the solutions, our team came in fourth place with a minimal gap from the winners. }
   \end{cvitems}
 }
 %---------------------------------------------------------
@@ -73,9 +82,12 @@
 {October 2024} % Date(s)
 {
   \begin{cvitems} % Description(s) of experience/contributions/knowledge
-    \item {Solve problem of detecting flooded areas on multispectral images from satellites and find infrastructure facillites that are flooded. }
-    \item {After stuying related papers found a model architecture that will perfectly fit our task. }
-    \item {As a solution we trained GAN model that uses Unet model as a generator. } 
+    \item {The task was to detect flooded regions and infrastructure on multispectral satellite images. from satellites. }
+    \item {In addition, one of the metrics was to count the number of houses that were flooded. }
+    \item {I was engaged in reviewing research relevant to our task. } 
+    \item {During the solution, I implemented an algorithm that utilizes the surface reflectance features through a modified co-occurrence matrix for color images, as well as an algorithm to train a generative-adversarial network. }
+    \item {As a solution, we provided a generative-adversarial network with the Unet model as the generator. } 
+    \item {As a result, our team took the seventh place.}
   \end{cvitems}
 }
 \end{cventries}
