@@ -9,7 +9,51 @@
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
-%---------------------------------------------------------
+  \cventry
+    {Backend Developer} % Job title
+    {Pyparse, Evotech} % Organization
+    {Yekaterinburg (Online), Russia} % Location
+    {July 2020 - August 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {A project for auto parts distributors, with the primary goal of creating a service for searching and purchasing auto parts from a list of online store websites, as well as tracking orders.}
+        \item {My responsibility was to develop a worker and a page parser in Python, which sent requests to websites and extracted the necessary information. The task was complicated by the fact that most of the websites did not have open APIs.}
+        \item {Initially, the task was implemented by other developers, but the solution lacked full functionality (only supported parts search) and was very slow (taking around 10–15 minutes per request) as it was developed using Selenium.}
+        \item {Technologies used: FastAPI, asyncio, BeautifulSoup, as well as HTML and JavaScript for parsing.}
+        \item {My responsibilities included: developing a worker to receive tasks from the main application, developing parsers for websites, and implementing the logic for order processing.}
+        \item {As a result, we created a scalable project architecture where adding a new order source no longer required considering functionality beyond parsing. We optimized the application, reducing the time per request to about 30 seconds instead of 10–15 minutes.}
+      \end{cvitems}
+    }
+
+\cventry
+    {Backend Developer} % Job title
+    {Software Project, Innopolis University} % Organization
+    {Innopolis, Russia} % Location
+    {June - July 2022} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {As part of the Software Project course, we developed a project titled "Reusable Learning App."}
+        \item {The main goal of the project was to provide a template application for educational materials that could be extended further. Examples like Duolingo and Brilliant were taken as references.}
+        \item {My tasks included developing an API for the mobile app with functionalities for user registration and authorization, adding and modifying educational materials, and implementing a course system and an experience system to track course progress.}
+        \item {Technologies used: Django, Django REST Framework, PostgreSQL, Docker.}
+      \end{cvitems}
+    }
+
+\cventry
+    {Backend Developer \& ML Engineer} % Job title
+    {Capstone Project, Innopolis University \& Gazpromstroy} % Organization
+    {Innopolis, Russia} % Location
+    {June - July 2023} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {As part of the Capstone Project course, we developed a service for Gazpromstroy.}
+        \item {The main goal of the project was to create a system for recognizing markings on pipes.}
+        \item {The task was challenging due to the markings being manually applied by different people using various tools (markers, stickers, etc.), and the symbols were often worn out due to long exposure to harsh conditions.}
+        \item {My responsibilities included preparing data for training the recognition model, data annotation, selecting the most suitable model, and developing an API for user authorization functionality.}
+        \item {Technologies used: OpenCV, CVAT, PyTorch, MMOCR, FastAPI, PostgreSQL, Docker.}
+      \end{cvitems}
+    }
+  
   \cventry
     {Junior Backend Developer} % Job title
     {Invian} % Organization
@@ -25,4 +69,18 @@
         \item {I was writing unit tests for a service that interacts with InfluxDB.}
       \end{cvitems}
     }
+    
+    \cventry
+    {Backend Developer} % Job title
+    {TourManager} % Organization
+    {Innopolis, Russia} % Location
+    {June - September 2024} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {An application designed to simplify the internal processes of tour companies. It allows managers to create excursions with all the necessary information, and tour guides can view their excursions and details.}
+        \item {My responsibilities included developing a new backend, as the old one had limited functionality and a poorly scalable architecture.}
+        \item {As a result, I developed an architecture adhering to Domain-Driven Design and Robert C. Martin's Clean Architecture principles.}
+        \item {Technologies used: FastAPI, adaptix, SQLAlchemy, PostgreSQL, pydantic, Redis.}
+      \end{cvitems}
+  }
 \end{cventries}
